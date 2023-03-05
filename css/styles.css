@@ -43,14 +43,14 @@ body {
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
+.header-item:is(:hover :focus) {
+    color: #2E2F42;
+}
 
 .header-address {
     font-style: normal;
 }
 
-.header-address:is(:hover :focus) {
-    color: #404bbf ;
-}
 
 .header-eml {
     font-weight: 400;
@@ -71,7 +71,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-
 }
 
 .header-tel:is(:hover :focus) {
