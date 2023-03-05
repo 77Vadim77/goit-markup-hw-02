@@ -36,19 +36,13 @@ body {
     text-decoration: none;
 }
 
-.header-studio:hover {
-    color: #f4f4fd;
-} 
-.header-studio:focus {
-    color: #f4f4fd;
-}
-
 .header-item {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    text-decoration: none;
 }
 .header-item:hover {
     color: #2E2F42;
@@ -67,7 +61,9 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-decoration: none;
     color: #434455
+    
 } 
 
 .address {
@@ -144,6 +140,18 @@ body {
 
 .hero-footer {
     background-color: #2E2F42;
+}
+
+.studio {
+font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #f4f4fd
 }
 
 
