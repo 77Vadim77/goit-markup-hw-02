@@ -71,23 +71,6 @@ body {
     color: #434455;
 }
 
-.address:is(:hover :focus) {
-    color: #404bbf;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-
-.address {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
 .address:hover {
     color: #404bbf;
     font-weight: 400;
@@ -107,7 +90,7 @@ body {
 }
 
 .header-title {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
@@ -128,7 +111,7 @@ body {
 }
 
 .hero-item {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -139,7 +122,7 @@ body {
 }
 
 .hero-top-text {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -149,7 +132,7 @@ body {
 }
 
 .hero {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
