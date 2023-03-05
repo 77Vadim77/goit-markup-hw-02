@@ -36,18 +36,6 @@ body {
     text-decoration: none;
 }
 
-.header {
-    font-family: "Raleway", sans-serif;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #f4f4fd;
-        text-decoration: none;
-}
-
 .header-item {
     font-weight: 500;
     font-size: 16px;
@@ -63,8 +51,15 @@ body {
     font-style: normal;
 }
 
+.header-list {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-slate);
+} 
 
-.header-eml {
+.address {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -72,12 +67,16 @@ body {
     color: #434455;
 }
 
-.header-eml:is(:hover :focus) {
+.address:is(:hover :focus) {
     color: #404bbf;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 
-.header-tel {
+.address {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -85,8 +84,12 @@ body {
     color: #434455;
 }
 
-.header-tel:is(:hover :focus) {
+.address:is(:hover :focus) {
     color: #404bbf;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .header-sec {
     background: #2E2F42;
