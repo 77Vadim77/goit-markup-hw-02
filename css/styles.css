@@ -42,6 +42,10 @@ body {
     color: #2E2F42;
 }
 
+.header-address {
+    font-style: normal;
+}
+
 .header-eml {
     font-weight: 400;
     font-size: 16px;
@@ -49,6 +53,12 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+.header-eml:hover,
+.header-eml:focus {
+    color: #404bbf;
+}
+
 
 .header-tel {
     font-weight: 400;
@@ -59,6 +69,10 @@ body {
 
 }
 
+.header-tel:hover,
+.header-tel:focus {
+    color: #404bbf;
+}
 .header-sec {
     background: #2E2F42;
 }
