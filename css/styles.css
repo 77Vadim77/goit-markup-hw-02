@@ -43,7 +43,11 @@ body {
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.header-item:is(:hover :focus) {
+.header-item:hover {
+    color: #2E2F42;
+}
+
+.header-item:focus {
     color: #2E2F42;
 }
 
@@ -84,13 +88,20 @@ body {
     color: #434455;
 }
 
-.address:is(:hover :focus) {
+.address:hover {
     color: #404bbf;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.address:focus {
+    color: #404bbf;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}   
 .header-sec {
     background: #2E2F42;
 }
