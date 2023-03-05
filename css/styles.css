@@ -36,6 +36,18 @@ body {
     text-decoration: none;
 }
 
+.header {
+    font-family: "Raleway", sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #f4f4fd;
+        text-decoration: none;
+}
+
 .header-item {
     font-weight: 500;
     font-size: 16px;
