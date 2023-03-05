@@ -46,6 +46,10 @@ body {
     font-style: normal;
 }
 
+.header-address:is(:hover :focus) {
+    color: #404bbf ;
+}
+
 .header-eml {
     font-weight: 400;
     font-size: 16px;
@@ -54,8 +58,7 @@ body {
     color: #434455;
 }
 
-.header-eml:hover,
-.header-eml:focus {
+.header-eml:is(:hover :focus) {
     color: #404bbf;
 }
 
@@ -69,8 +72,7 @@ body {
 
 }
 
-.header-tel:hover,
-.header-tel:focus {
+.header-tel:is(:hover :focus) {
     color: #404bbf;
 }
 .header-sec {
