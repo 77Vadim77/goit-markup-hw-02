@@ -8,9 +8,6 @@ body {
     color: #FFFFFF;
 }
 
-.link {
-    text-decoration: none;
-}
 
 .header-logo {
     font-family: "Raleway", sans-serif;
@@ -61,6 +58,10 @@ body {
     color: #434455
     
 } 
+
+.link {
+    text-decoration: none;
+}
 
 .address {
     font-weight: 400;
