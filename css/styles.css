@@ -39,11 +39,11 @@ body {
     color: #2E2F42;
 }
 .header-item:hover {
-    color: #404bbf;
+    color: #2E2F42;
 }
 
 .header-item:focus {
-    color: #404bbf;
+    color: #2E2F42;
 }
 
 .header-address {
